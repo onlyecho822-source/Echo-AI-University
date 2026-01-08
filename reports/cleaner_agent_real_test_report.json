@@ -1,0 +1,39 @@
+{
+  "agent_path": "/home/ubuntu/Echo/agents/cleaner/cleaner_agent.py",
+  "test_date": "2026-01-08T19:57:53.028484",
+  "overall_score": 0.6666666666666666,
+  "overall_passed": false,
+  "tests_passed": 2,
+  "tests_total": 3,
+  "results": [
+    {
+      "scenario_id": "api_failure_recovery",
+      "passed": true,
+      "recovery_rate": 1.0,
+      "avg_recovery_time": 0.018164539337158205,
+      "has_retry_logic": true,
+      "has_error_handling": true,
+      "details": "Real test: 5/5 recoveries, error handling: True"
+    },
+    {
+      "scenario_id": "code_quality",
+      "passed": true,
+      "quality_score": 0.8215469613259668,
+      "total_lines": 258,
+      "code_lines": 181,
+      "comment_lines": 22,
+      "function_count": 8,
+      "class_count": 1,
+      "error_handling_blocks": 8,
+      "details": "Real metrics: 181 LOC, 8 functions, 8 error handlers"
+    },
+    {
+      "scenario_id": "execution_speed",
+      "passed": false,
+      "execution_time": 10.0,
+      "success": false,
+      "details": "Real execution: 10.00s, exit code: timeout"
+    }
+  ],
+  "test_type": "REAL_EXECUTION"
+}

@@ -1,0 +1,39 @@
+{
+  "agent_path": "/home/ubuntu/Echo/agents/planner/planner_agent.py",
+  "test_date": "2026-01-08T19:55:59.022865",
+  "overall_score": 0.6666666666666666,
+  "overall_passed": false,
+  "tests_passed": 2,
+  "tests_total": 3,
+  "results": [
+    {
+      "scenario_id": "api_failure_recovery",
+      "passed": true,
+      "recovery_rate": 1.0,
+      "avg_recovery_time": 0.01474466323852539,
+      "has_retry_logic": true,
+      "has_error_handling": true,
+      "details": "Real test: 5/5 recoveries, error handling: True"
+    },
+    {
+      "scenario_id": "code_quality",
+      "passed": true,
+      "quality_score": 0.8917808219178083,
+      "total_lines": 330,
+      "code_lines": 219,
+      "comment_lines": 42,
+      "function_count": 5,
+      "class_count": 1,
+      "error_handling_blocks": 2,
+      "details": "Real metrics: 219 LOC, 5 functions, 2 error handlers"
+    },
+    {
+      "scenario_id": "execution_speed",
+      "passed": false,
+      "execution_time": 10.0,
+      "success": false,
+      "details": "Real execution: 10.00s, exit code: timeout"
+    }
+  ],
+  "test_type": "REAL_EXECUTION"
+}

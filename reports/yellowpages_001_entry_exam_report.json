@@ -1,0 +1,73 @@
+{
+  "agent_name": "yellowpages_001",
+  "agent_id": "agent_c434f911b03972f94d1881c4f8be02bc",
+  "exam_date": "2026-01-08T19:53:47.884443",
+  "overall_score": 1.0,
+  "overall_passed": true,
+  "scenarios_passed": 10,
+  "scenarios_total": 10,
+  "credential_earned": "cadet",
+  "results": [
+    {
+      "scenario_id": "api_failure_recovery",
+      "passed": true,
+      "recovery_rate": 1.0,
+      "avg_recovery_time": 0.5001341342926026,
+      "details": "Recovered from 5/5 failures"
+    },
+    {
+      "scenario_id": "data_corruption_detection",
+      "passed": true,
+      "detection_rate": 1.0,
+      "details": "Detected 3/3 corrupted inputs"
+    },
+    {
+      "scenario_id": "timeout_handling",
+      "passed": true,
+      "graceful_degradation": true,
+      "details": "Agent handled timeout gracefully"
+    },
+    {
+      "scenario_id": "rate_limit_adaptation",
+      "passed": true,
+      "crash_count": 0,
+      "details": "Agent adapted to rate limits without crashing"
+    },
+    {
+      "scenario_id": "auth_failure_handling",
+      "passed": true,
+      "handled_gracefully": true,
+      "details": "Agent handled auth failure gracefully"
+    },
+    {
+      "scenario_id": "network_partition",
+      "passed": true,
+      "offline_capability": 0.75,
+      "details": "Agent maintained 75.0% capability offline"
+    },
+    {
+      "scenario_id": "memory_pressure",
+      "passed": true,
+      "memory_efficiency": 0.85,
+      "details": "Agent maintained 85.0% efficiency under pressure"
+    },
+    {
+      "scenario_id": "concurrent_requests",
+      "passed": true,
+      "success_rate": 0.97,
+      "details": "Handled 97/100 concurrent requests"
+    },
+    {
+      "scenario_id": "invalid_input_rejection",
+      "passed": true,
+      "rejection_rate": 0.95,
+      "details": "Rejected 19/20 invalid inputs"
+    },
+    {
+      "scenario_id": "graceful_degradation",
+      "passed": true,
+      "degradation_score": 0.85,
+      "details": "Degradation score: 85.0%"
+    }
+  ]
+}

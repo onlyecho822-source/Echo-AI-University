@@ -1,0 +1,3 @@
+{"timestamp": "2026-01-08T19:53:38.396237", "event_type": "entry_exam", "agent_id": "agent_68b0157c9545d5cfeb99829ae464c16a", "agent_name": "planner_001", "overall_score": 1.0, "passed": true, "credential_earned": "cadet"}
+{"timestamp": "2026-01-08T19:53:45.335765", "event_type": "entry_exam", "agent_id": "agent_f194970cb3e8908d5e1672ba9cffe1ee", "agent_name": "cleaner_001", "overall_score": 1.0, "passed": true, "credential_earned": "cadet"}
+{"timestamp": "2026-01-08T19:53:47.885020", "event_type": "entry_exam", "agent_id": "agent_c434f911b03972f94d1881c4f8be02bc", "agent_name": "yellowpages_001", "overall_score": 1.0, "passed": true, "credential_earned": "cadet"}
